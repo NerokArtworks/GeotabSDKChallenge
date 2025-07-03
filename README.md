@@ -45,9 +45,9 @@ docker build -t geotab-sdk-challenge .
 
 ---
 
-## Build the Docker image
+## Run the container
 
-From the root folder of the project (where the Dockerfile is), run:
+To run the app and pass credentials, execute:
 
 ```bash
 docker run --rm geotab-sdk-challenge <server> <database> <username> <password>
@@ -69,7 +69,7 @@ docker run --rm -v $(pwd)/VehicleData:/app/VehicleBackups geotab-sdk-challenge <
 Windows (PowerShell):
 
 ```bash
-docker run --rm -v ${PWD}/VehicleData:/app/VehicleBackups geotab-sdk-challenge <server> <database> <username> <password>
+docker run --rm -v ${PWD}\VehicleData:/app/VehicleBackups geotab-sdk-challenge <server> <database> <username> <password>
 ```
 
 This way, backups are synced to your local VehicleData folder.
