@@ -36,5 +36,8 @@ packages/
 # Dotnet tools
 .dotnet/
 
+# VehicleData folder used as Docker volume to persist CSV backup files
+VehicleData
+
 # Others
 *.vsix

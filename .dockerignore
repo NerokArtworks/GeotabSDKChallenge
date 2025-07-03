@@ -12,4 +12,4 @@ obj
 *.log
 
 # VehicleData folder used as Docker volume to persist CSV backup files
-.VehicleData
+VehicleData
