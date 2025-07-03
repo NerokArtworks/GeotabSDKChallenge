@@ -1,0 +1,15 @@
+# Visual Studio / VSCode
+.vs
+.vscode
+
+# Build output folders
+bin
+obj
+
+# User-specific files
+*.user
+*.lock.json
+*.log
+
+# VehicleData folder used as Docker volume to persist CSV backup files
+.VehicleData

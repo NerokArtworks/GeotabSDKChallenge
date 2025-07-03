@@ -1,0 +1,40 @@
+# Visual Studio / VSCode
+.vs/
+.vscode/
+
+# Build output folders
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local launcheSettings
+Properties/launchSettings.json
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Publish output (optional, if you do publish)
+publish/
+
+# Backup files
+*.bak
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Dotnet tools
+.dotnet/
+
+# Others
+*.vsix
